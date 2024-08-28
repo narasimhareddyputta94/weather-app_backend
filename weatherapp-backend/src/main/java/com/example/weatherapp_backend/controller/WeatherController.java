@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://localhost:3001")
 public class WeatherController {
 
     private final String API_KEY = "0176d07cba1b5186c8873f6c09ceb4c8";  // Replace with your OpenWeatherMap API key
