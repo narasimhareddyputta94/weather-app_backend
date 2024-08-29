@@ -63,4 +63,5 @@ public class WeatherController {
     public ResponseEntity<Object> handleRuntimeException(RuntimeException ex) {
         return new ResponseEntity<>(Map.of("error", ex.getMessage()), HttpStatus.INTERNAL_SERVER_ERROR);
     }
+
 }
